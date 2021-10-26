@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav  -->
+    <nav class="navbar">
+        <div class="nav-center">
+            <div class="nav-header">
+                <a href="index.html" class="nav-logo">
+                    <img src="./assets/logo.png" alt="Esprit Logo" />
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="#positions" class="nav-link"> Positions </a>
+                <a href="#units" class="nav-link"> Units </a>
+                <a href="#flex" class="nav-link"> Flex </a>
+                <a href="#media" class="nav-link"> Media </a>
+    
+                <div class="nav-link contact-link">
+                    <a href="#" class="btn"> contact us </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end of nav -->
+    <h1 id="positions">Positions</h1>
+    <!-- position static-->
+    <div class="container">
+        <div class="item item1"></div>
+        <div class="item item2"></div>
+    </div>
+    <h1 id="units">CSS Units</h1>
+    <h2>% vs px</h2>
+    <div class="box box__percent">50% width</div>
+    <div class="box box__pixels">200 px</div>
+    <div class="container box__container">
+        <div class="box box__percent">50% width</div>
+        <div class="box box__pixels">200 px</div>
+    </div>
+
+    <h2>vw vs vh</h2>
+    <div class="box box__percent">50% width</div>
+    <div class="box box__vw">50vw</div>
+    <div class="box box__vh">20vh</div>
+    <div class="container box__container">
+        <div class="box box__percent">50% width</div>
+        <div class="box box__vw">50vw</div>
+        <div class="box box__vh">20vh</div>
+    </div>
+
+    <h2>em vs rem</h2>
+    <p class="font__1em">Text defined with font-size: 1em.</p>
+    <p class="font__1rem">Text defined with font-size: 1rem.</p>
+    <p class="font__100percent">Text defined with font-size: 100%.</p>
+    <p class="font__2em">Text defined with font-size: 2em.</p>
+    <p class="font__2rem">Text defined with font-size: 2rem.</p>
+    <p class="font__200percent">Text defined with font-size: 200%.</p>
+    <div class="container font__container">
+        <p class="font__1em">Text defined with font-size: 1em.</p>
+        <p class="font__1rem">Text defined with font-size: 1rem.</p>
+        <p class="font__100percent">Text defined with font-size: 100%.</p>
+        <p class="font__2em">Text defined with font-size: 2em.</p>
+        <p class="font__2rem">Text defined with font-size: 2rem.</p>
+        <p class="font__200percent">Text defined with font-size: 200%.</p>
+    </div>
+
+    <h1 id="flex">Flex</h1>
+    <div class="flex__container">
+        <a href="https://flexboxfroggy.com/" class="btn">Let's play!</a>
+    </div>
+    <h1 id="media">Media Queries</h1>
+    <div class="container media__container">
+
+    </div>
+
+</body>
+</html>
