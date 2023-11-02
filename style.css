@@ -153,6 +153,7 @@ ________________________
     border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
+    position:relative
 }
 
 .item {
@@ -162,8 +163,54 @@ ________________________
 
 .item1{
     background-color: rgb(255, 190, 225);
+    /* position:relative;
+    top:50px;
+    left:50px; */
+    /* position:absolute; */
+    /* position:fixed;
+*/
+position:sticky;
+}
+.box_percent
+{width: 50%;
+}
+.box_pixels
+{ width:
+200px;
 }
 
+.box_vw
+{ width:
+50vw;
+}
+.box_vh
+{ height: 50vh;}
+
+.font_container
+{height: auto;
+margin: 10px;
+font-size: 25px;
+}
+.font_1em {
+font-size: 1em;
+}
+.font_1rem {
+font-size: 1rem;
+}
+.font_100percent
+{font-size:200%
+
+}
+
+.font_2em {
+font-size: 2em;
+}
+.font_2rem {
+font-size: 2rem;
+}
+.font_200percent
+{ font-size:
+200%;}
 .item2{
     background-color: rgb(131, 204, 233)
 }
@@ -208,12 +255,37 @@ ________________________
 Media Queries
 ________________________
 */
-.media__container{
+/* .media__container{
     height: 20vh;
     width: 90vw;
     margin-bottom: 50px;
     background-color: var(--primary-100);
+} */
+
+@media screen and (max-width: 600px ){
+    .media__container{
+    background-color: var(--primary-200);
+    }
 }
+
+@media screen and (max-width: 768px ){
+    .media__container{
+    background-color: var(--primary-400);
+    }
+}
+
+@media screen and (max-width: 992px ){
+    .media__container{
+    background-color: var(--primary-600);
+    }
+}
+
+@media screen and (max-width:1200px ){
+    .media__container{
+    background-color: var(--primary-800);
+    }
+}
+
 /* Extra small devices (phones, 600px and down) */
 
 
